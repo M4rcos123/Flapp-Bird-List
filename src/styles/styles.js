@@ -3,14 +3,14 @@ import { StyleSheet } from  'react-native';
 export const styles = StyleSheet.create({
     container: {
       flex: 1,
-      backgroundColor: '#a35fde',
+      backgroundColor: '#0a0000',
       alignItems: 'center',
       justifyContent: 'center',
     },
     buttonContainer: {
-      marginTop: 50,
+      marginTop: 10,
       backgroundColor: '#f078e2',
-      color: '#0f0d0f',
+      color: '#fff',
       marginBottom: 20,
       width: '80%',
     },
@@ -18,6 +18,7 @@ export const styles = StyleSheet.create({
       marginTop: 32,
       width: '80%',
       borderRadius: 7,
+      borderColor: '#0a0000',
     },
     itemList: {
       padding: 24,
@@ -26,7 +27,7 @@ export const styles = StyleSheet.create({
       marginBottom: 16,
     },
     itemText: {
-      color: '#0f0d0f',
+      color: '#fff',
     },
     inputContainer: {
       marginTop: 20,
@@ -34,11 +35,12 @@ export const styles = StyleSheet.create({
     },
     input:{
       height: 40, 
-      borderColor: '#0f0d0f',
+      borderColor: '#f078e2',
       borderWidth: 1,
       borderRadius: 5,
       paddingHorizontal: 10,
       paddingVertical: 8, 
-      color: '#0f0d0f', 
+      color: '#f078e2', 
+      marginTop: 50,
     }
   });

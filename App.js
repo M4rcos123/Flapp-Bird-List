@@ -15,9 +15,6 @@ function App() {
 
   return (
     <View style={styles.container}>
-      <View style={styles.buttonContainer}>
-        <Button title="Consultar" onPress={searchDados} />
-      </View>
 
       <View style={styles.inputContainer}>
         <TextInput
@@ -25,8 +22,12 @@ function App() {
           value={inputValue}
           onChangeText={setInputValue}
           placeholder="Quem quer achar?"
-          placeholderTextColor= "#0f0d0f"
+          placeholderTextColor= "#fff"
         />
+      </View>
+
+      <View style={styles.buttonContainer}>
+        <Button title="Achar Indivíduo" onPress={searchDados} />
       </View>
 
       <FlatList
